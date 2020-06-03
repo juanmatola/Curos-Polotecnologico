@@ -7,12 +7,17 @@ section{
     background-color: rgb(226, 226, 226);
     box-sizing: border-box;
     padding: 10px;
+    min-height: 100vh;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    color: bisque;
 }
 
 .figure{
@@ -21,9 +26,14 @@ p{
     box-sizing: border-box;
     padding: 10px;
     height: 200px;
+    margin: 10px;
+    transition: 1s;
 }
 
 @media (max-width: 700px){
+    section{
+        display: block;
+    }
     .figure{
         display: block;
         margin: auto;
@@ -31,11 +41,22 @@ p{
         max-width: 100vw;
     }
 }
+.darkside{
+    visibility: hidden;
+    text-decoration: none;
+    transition-delay: 500ms;
+}
 
-.figure:hover{
-    cursor: pointer;
-    background-color: rgb(207, 247, 114) !important;
+.figure:hover {
+    cursor: grab;
+    background-color: rgb(77, 83, 62) !important;
     opacity: 0.5;
+    transform: scale(0.5);
+    border-radius: 50%;
+    -moz-transform: rotate3d(0,1,0,1turn);
+}
+.figure:hover .darkside {
+    visibility: visible;
 }
 
 #one{
@@ -51,20 +72,6 @@ p{
 
 #three{
     width: 250px;
-    background-color: chocolate;
-}
-
-#one p{
-    color: black;
-    font-weight: bolder;
-}
-
-#two p{
-    color: white;
-    text-decoration: underline;
-}
-
-#three p{
-    color: violet;
+    background-color: rgb(179, 36, 179);
 }
 
