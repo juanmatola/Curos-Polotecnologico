@@ -75,6 +75,17 @@ body {
     background-color: rgb(235, 233, 233);
     color:  rgb(147, 80, 255);
 }
+.subscription > form { 
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px 10vw;
+}
+form > input, form > textarea, form > button { 
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-top: 5px;
+}
 
 /* footer */
  footer {
