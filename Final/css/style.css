@@ -20,6 +20,11 @@ html, body {
 .slider-img {
     max-height: 100vh;
 }
+.card-image {
+    height: 40%;
+    width: auto;
+    padding-top: 15px;
+}
 
 #popup__section {
     background: linear-gradient (rgba(25,25,25,0.5), rgb(96,185,203));
