@@ -8,6 +8,11 @@ html, body {
     height: 100vh;
     width: auto;
 }
+@media(max-width: 576px){
+    .header {
+        margin-top: 50px;
+    }
+}
 .slider-control {
     width: 50px; 
     height: 50px;
