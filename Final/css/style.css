@@ -1,0 +1,15 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+#popup__section {
+    background: linear-gradient (rgba(25,25,25,0.5), rgb(96,185,203));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* #popup__section .container {
+    background-color: rgba(128, 62, 24, 0.507);
+} */
