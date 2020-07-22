@@ -8,6 +8,9 @@ html, body {
 .navbar {
     border-bottom: 2px solid rgb(44, 44, 44);
 }
+.active {
+    font-weight: bold;
+}
 /* Header */
 .header {
     width: auto;
