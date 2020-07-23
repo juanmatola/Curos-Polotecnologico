@@ -91,7 +91,9 @@ html, body {
 }
 
 /* Footer */
-
+.footer {
+    border-top: black solid 2px;
+}
 .footer  i {
  font-size: 2rem;
 }
