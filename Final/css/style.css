@@ -108,7 +108,6 @@ html, body {
 
 /* Popup */ 
 #popup__section {
-    background: linear-gradient (rgba(25,25,25,0.5), rgb(96,185,203));
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
