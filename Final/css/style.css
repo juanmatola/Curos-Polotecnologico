@@ -106,9 +106,6 @@ html, body {
  font-size: 2rem;
 }
 
-.footer__contacto {
-    
-}
 /* Popup */ 
 #popup__section {
     background: linear-gradient (rgba(25,25,25,0.5), rgb(96,185,203));
