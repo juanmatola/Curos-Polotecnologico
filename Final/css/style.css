@@ -14,10 +14,11 @@ html, body {
 /* Header */
 .header {
     width: auto;
+    margin-top: 62px;
 }
-@media(max-width: 576px){
+@media(min-width: 768px){
     .header {
-        margin-top: 50px;
+        margin-top: 0px;
     }
 }
 .slider-control {
@@ -33,6 +34,14 @@ html, body {
     height: 40%;
     width: auto;
     padding-top: 15px;
+}
+
+/* Formularios */
+.form-control {
+    border: none;
+    border-bottom: 2px solid black;
+    background: none;
+    border-radius: 0px;
 }
 
 /* Galeria */
@@ -64,6 +73,29 @@ html, body {
 .galery-item__hover i, .galery-item__hover p {
     color: rgb(221, 221, 221);
     font-size: 30px;
+}
+/* Call to action */
+.calltoaction__container {
+    background: linear-gradient(90deg, rgba(217,215,220,1) 0%, rgba(200,204,207,1) 50%, rgba(218,222,225,1) 71%, rgba(218,222,225,1) 100%);
+}
+.calltoaction__container--img {
+    display: none;
+    min-height: 100% ; 
+}
+
+@media(min-width: 768px){
+    .calltoaction__container--img {
+        display: block;
+        background-image: url(/Final/img/calltoaction.jpg); 
+        background-position: top; 
+        background-size: cover;
+    }
+}
+
+/* Footer */
+
+.footer  i {
+ font-size: 2rem;
 }
 /* Popup */ 
 #popup__section {
