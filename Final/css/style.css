@@ -65,7 +65,7 @@ html, body {
     color: rgb(221, 221, 221);
     font-size: 30px;
 }
-
+/* Popup */ 
 #popup__section {
     background: linear-gradient (rgba(25,25,25,0.5), rgb(96,185,203));
     background-position: center;
@@ -75,3 +75,14 @@ html, body {
 /* #popup__section .container {
     background-color: rgba(128, 62, 24, 0.507);
 } */
+
+
+/* ------------------ Acercade.html ----------------- */
+.accordion .card {
+    border: none;
+    border-bottom: solid 1px black;
+}
+
+.accordion .card-header:hover {
+    cursor: pointer;
+}
