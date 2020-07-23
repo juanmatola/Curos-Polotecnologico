@@ -80,9 +80,8 @@ html, body {
 }
 .calltoaction__container--img {
     display: none;
-    min-height: 100% ; 
+    min-height: 100% ;
 }
-
 @media(min-width: 768px){
     .calltoaction__container--img {
         display: block;
