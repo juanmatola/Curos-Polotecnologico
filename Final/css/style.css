@@ -86,7 +86,6 @@ html, body {
 @media(min-width: 768px){
     .calltoaction__container--img {
         display: block;
-        background-image: url(img/calltoaction.jpg); 
         background-position: top; 
         background-size: cover;
     }
