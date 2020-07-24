@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Acerca de..</title>
+    <title>Contacto</title>
     <link rel="icon" type="image/ico" href="img/icons/icono.ico"/>
 
     <!-- Librerias CSS -->
@@ -29,7 +29,7 @@
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
@@ -49,7 +49,7 @@
               </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
+                <a class="nav-link active" href="contacto.html">Contacto</a>
             </li>
           </ul>
         </div>
@@ -59,8 +59,55 @@
     <header class="container-fluid bg-dark d-flex align-items-center justify-content-center header-secondary" >
       <h1 class="text-warning">Contacto</h1>
     </header>
-    
 
+    <main class="py-5 bg-light">
+        <div class="container">
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" id="name-form" name="name" placeholder="Nombre">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="email" class="form-control" id="email-form" name="email" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <select id="city-form" class="form-control" name="city">
+                            <option selected>Ciudad..</option>
+                            <option>...</option>
+                            <option>...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <div class="input-group mb-3">
+                            <input type="date" class="form-control" name="date" aria-describedby="descripcionfecha">
+                            <div class="input-group-append">
+                              <span class="input-group-text" id="descripcionfecha"><i class="far fa-calendar-alt"></i></span>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" id="mensaje-form" name="message" rows="2" placeholder="Mensaje.."></textarea>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="check-form" name="check">
+                    <label class="form-check-label" for="gridCheck">
+                      Check
+                    </label>
+                  </div>
+                </div>
+                <div class="text-right">
+                    <button type="submit" class="btn btn-success">enviar</button>
+                </div>
+              </form>
+        </div>
+    </main>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13385.141484255604!2d-60.6393978!3d-32.9962511!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe3d4a9ba0c7fe007!2sPolo%20Tecnol%C3%B3gico%20Rosario%20-%20Zona%20i!5e0!3m2!1ses-419!2sar!4v1595617133432!5m2!1ses-419!2sar" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
     <footer class="footer py-5 bg-dark text-light" id="foo">
       <div class="container">
